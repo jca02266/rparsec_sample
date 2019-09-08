@@ -5,6 +5,6 @@ git submodule update -i
 ```
 
 ```
-ruby html_parser.rb < Sample.html
-ruby java_parser.rb < Sample.java
+ruby -I./rparsec html_parser.rb < Sample.html
+ruby -I./rparsec java_parser.rb < Sample.java
 ```
