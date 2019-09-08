@@ -1,5 +1,4 @@
-require 'rubygems'
-require 'rparsec'
+require_relative 'rparsec/rparsec.rb'
 
 include RParsec::Parsers
 
